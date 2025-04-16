@@ -28,7 +28,7 @@ setup(
         'Topic :: Software Development :: Libraries',
     ],
     install_requires=[
-        "prance>=0.20.2",
-        "openapi-spec-validator==0.6.0",
+        "prance>=23.6.21.0",
+        "openapi-spec-validator>=0.7.1",
     ],
 )
