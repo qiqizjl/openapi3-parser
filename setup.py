@@ -25,10 +25,19 @@ setup(
         'Operating System :: OS Independent',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
         'Topic :: Software Development :: Libraries',
     ],
     install_requires=[
         "prance>=23.6.21.0",
         "openapi-spec-validator>=0.7.1",
     ],
+    extras_require={
+        "dev": [
+            "mypy>=1.15.0",
+            "pytest>=8.3.5",
+        ],
+    },
 )
